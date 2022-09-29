@@ -2,16 +2,13 @@ package at.ac.fhcampuswien;
 
 import java.util.Scanner;
 
-public class HelloWorld {
-
-}
+public class App {
 
     //todo Task 1
-    public static void main (String[] args) {
-    System.out.printIn("Hello world !");
-    // Hello World!
+    public void sayHelloWorld() {
+        System.out.println("Hello World!");
+        // Hello World!
     }
-}
 
     //todo Task 2
     public void helloRobot(){
