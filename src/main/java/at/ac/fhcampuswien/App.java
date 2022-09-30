@@ -22,12 +22,37 @@ public class App {
 
     //todo Task 4
     public void addTwoNumbers(){
-        // input your solution here
+        Scanner scanner = new Scanner(System.in);
+
+        int
+
+        System.out.println("Before Swap:");
+        System.out.print("x: ");
+
     }
 
     //todo Task 5
-    public void swapTwoNumbers(){
-        // input your solution here
+    public void swapTwoNumbers() {
+        Scanner scanner = new Scanner(System.in);
+
+        int =a, b = 0;
+
+        System.out.println("Before Swap:");
+        System.out.println("x: ");
+        a = scanner.nextInt();
+        System.out.print("y: ");
+        b = scanner.nextInt();
+
+        a = a + b;
+        b = a - b;
+        a = a - b;
+
+        System.out.println("After Swap:");
+        System.out.println("x: " + a);
+        System.out.println("y: " + b);
+
+    }
+
     }
 
     //todo Task 6
