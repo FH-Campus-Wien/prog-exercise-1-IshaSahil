@@ -17,7 +17,7 @@ public class App {
 
     //todo Task 3
 
-    public void sumOfLiterals() {
+    public void sumOfLiterals(){
 
         char char1 = 'Z';
         int integer1 = 0xface;
