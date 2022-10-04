@@ -44,25 +44,24 @@ public class App {
     }
 
     //todo Task 5
+
     public void swapTwoNumbers() {
         Scanner scanner = new Scanner(System.in);
-        int a , b = 0;
-
+        int a, b = 0;
         System.out.println("Before Swap:");
-        System.out.println("x: ");
+        System.out.print("x: ");
         a = scanner.nextInt();
         System.out.print("y: ");
         b = scanner.nextInt();
-
         a = a + b;
         b = a - b;
         a = a - b;
-
         System.out.println("After Swap:");
         System.out.println("x: " + a);
         System.out.println("y: " + b);
 
     }
+
 
 
 
