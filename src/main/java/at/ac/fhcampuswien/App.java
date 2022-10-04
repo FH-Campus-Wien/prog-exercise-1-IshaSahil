@@ -24,7 +24,7 @@ public class App {
     public void addTwoNumbers(){
         Scanner scanner = new Scanner(System.in);
 
-        int
+        int a , b = 0;
 
         System.out.println("Before Swap:");
         System.out.print("x: ");
@@ -34,8 +34,7 @@ public class App {
     //todo Task 5
     public void swapTwoNumbers() {
         Scanner scanner = new Scanner(System.in);
-
-        int =a, b = 0;
+        int a , b = 0;
 
         System.out.println("Before Swap:");
         System.out.println("x: ");
@@ -53,12 +52,25 @@ public class App {
 
     }
 
-    }
+
 
     //todo Task 6
     public void compareTwoNumbers(){
-        // input your solution here
+    Scanner scanner = new Scanner(System.in);
+
+    System.out.print("n1: ");
+    int a = scanner.nextInt();
+    System.out.print("n2: ");
+    int b = scanner.nextInt();
+
+    if (a == b) {
+        System.out.print("n1 == n2" + System.lineSeparator());
+    } else if (a < b) {
+        System.out.print("n2 > n1" + System.lineSeparator());
+    } else if (a > b) {
+        System.out.print("n1 > n2" + System.lineSeparator());
     }
+ }
 
     //todo Task 7
     public void ratingSalesPerson(){
