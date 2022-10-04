@@ -16,9 +16,22 @@ public class App {
     }
 
     //todo Task 3
-    public void sumOfLiterals(){
-        // input your solution here
+
+    public void sumOfLiterals() {
+
+        char char1 = 'Z';
+        int integer1 = 0xface;
+        int integer2 = 012;
+        long long1 = 80L;
+        float float1 = 44e-1f;
+        float float2 = 5.5f;
+        float float3 = 8.88e1f;
+        float float4 = 99.9f;
+        int sum = 0;
+        sum = (int) char1 + integer1 + integer2 + (int) long1 + (int) float1 + (int) float2 + (int) float3 + (int) float4;
+        System.out.println(sum);
     }
+
 
     //todo Task 4
     public void addTwoNumbers(){
