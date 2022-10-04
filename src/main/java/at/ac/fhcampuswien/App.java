@@ -54,7 +54,7 @@ public class App {
         a = scanner.nextInt();
         System.out.print("y: ");
         b = scanner.nextInt();
-        
+
         a = a + b;
         b = a - b;
         a = a - b;
