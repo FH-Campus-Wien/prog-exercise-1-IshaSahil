@@ -27,7 +27,7 @@ public class App {
         float float2 = 5.5f;
         float float3 = 8.88e1f;
         float float4 = 99.9f;
-        int sum = 0;
+        int sum=0;
         sum = (int) char1 + integer1 + integer2 + (int) long1 + (int) float1 + (int) float2 + (int) float3 + (int) float4;
         System.out.println(sum);
     }
@@ -36,7 +36,7 @@ public class App {
     //todo Task 4
     public void addTwoNumbers(){
         Scanner scanner = new Scanner(System.in);
-        int a , b = 0;
+        int a,b = 0;
         a = scanner.nextInt();
         b = scanner.nextInt();
         System.out.println(a + b);
@@ -47,12 +47,14 @@ public class App {
 
     public void swapTwoNumbers() {
         Scanner scanner = new Scanner(System.in);
-        int a, b = 0;
+        int a,b = 0;
+
         System.out.println("Before Swap:");
         System.out.print("x: ");
         a = scanner.nextInt();
         System.out.print("y: ");
         b = scanner.nextInt();
+        
         a = a + b;
         b = a - b;
         a = a - b;
@@ -73,12 +75,11 @@ public class App {
     int a = scanner.nextInt();
     System.out.print("n2: ");
     int b = scanner.nextInt();
-
     if (a == b) {
         System.out.print("n1 == n2" + System.lineSeparator());
     } else if (a < b) {
         System.out.print("n2 > n1" + System.lineSeparator());
-    } else if (a > b) {
+    } else {
         System.out.print("n1 > n2" + System.lineSeparator());
     }
  }
