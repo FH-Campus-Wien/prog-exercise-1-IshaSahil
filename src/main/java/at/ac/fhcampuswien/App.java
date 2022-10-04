@@ -112,20 +112,36 @@ public class App {
             System.out.print("Excellent sales Revenue");
         }
 
-    }
+   //todo Task 8
+        public void getCommissionRate(){
+            Scanner scanner = new scanner(System.in);
+            System.out.print("Enter commissionClass: ");
+            int a = scanner.nextInt();
+            switch(a) {
+                case 1:
+                    System.out.print("Your Commission Rate was set to 0.01" + System.lineSeparator());
+                    break;
+                case 2:
+                    System.out.print("Your Commission Rate was set to 0.02" + System.lineSeparator());
+                    break;
+                case 3:
+                    System.out.print("Your Commission rate was set to 0.03" + System.lineSeparator());
+                    break;
+                case 4:
+                    System.out.print("Your Commission rate was set to 0.04" + System.lineSeparator());
+                    break;
+                default:
+                    System.out.print("Your Commission Rate was set to 0.0" + System.lineSeparator());
+                    break;
 
 
-
-
-
-    //todo Task 8
-
+            }
+            }
         }
-    }
+
+        
 
     //todo Task 9
-
-
     public void leapyear(){
     Scanner scanner=new Scanner(System.in);
         System.out.print("Year: ");
