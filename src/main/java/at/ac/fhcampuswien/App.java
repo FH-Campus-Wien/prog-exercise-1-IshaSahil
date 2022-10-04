@@ -12,7 +12,16 @@ public class App {
 
     //todo Task 2
     public void helloRobot(){
-        //
+        System.out.println("0123456789012345678901");
+        System.out.println("    __");
+        System.out.println(" _(\\     |@@|");
+        System.out.println("(__/\\__ \\--/ __");
+        System.out.println("   \\___|----|  |  __");
+        System.out.println("      \\}{ /\\ )_ / _\\");
+        System.out.println("       /\\__/\\ \\__0 (__");
+        System.out.println("      (--/\\--)    \\__/");
+        System.out.println("      _)( )(_");
+        System.out.println("      '___''___");
     }
 
     //todo Task 3
@@ -110,25 +119,29 @@ public class App {
 
 
     //todo Task 8
-    public void getCommissionRate(){
-        // input your solution here
-    }
 
-    //todo Task 9
-    public void leapyear() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Year: ");
-        int year = scanner.nextInt();
-        if ((year % 100) == 0 && (year%400) != 0) {
-            System.out.print("Not a Leapyear" + System.lineSeparator());
-        } else if ((year%400) == 0 || (year%4) == 0) {
-            System.out.print("Leapyear" + System.lineSeparator());
-        } else {
-            System.out.print("Not a leapyear" + System.lineSeparator());
         }
     }
 
+    //todo Task 9
+
+
+    public void leapyear(){
+    Scanner scanner=new Scanner(System.in);
+        System.out.print("Year: ");
+        int year = scanner.nextInt();
+        if((year%100)==0&&(year%400)!=0){
+        System.out.print("Not a Leapyear"+System.lineSeparator());
+        }else if((year%400)==0||(year%4)==0){
+        System.out.print("Leapyear"+System.lineSeparator());
+        }else{
+        System.out.print("Not a leapyear"+System.lineSeparator());
+        }
+        }
+
     //todo Task 10
+
+
     public void transposedNumbers(){
         Scanner scanner = new Scanner(System.in);
         int beforeconversion, afterconversion, a, b, c;
