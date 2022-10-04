@@ -98,7 +98,16 @@ public class App {
 
     //todo Task 10
     public void transposedNumbers(){
-        // input your solution here
+        Scanner scanner = new Scanner(System.in);
+        int beforeconversion, afterconversion, a, b, c;
+        System.out.print("Number: = ");
+        beforeconversion = scanner.nextInt();
+        a = beforeconversion/100;
+        b = (beforeconversion - a * 100) / 10;
+        c = (beforeconversion - a * 100 - b * 10);
+        afterconversion = c * 100 + b * 10 * a;
+        System.out.print(afterconversion + System.lineSeparator());
+
     }
 
 
