@@ -36,11 +36,10 @@ public class App {
     //todo Task 4
     public void addTwoNumbers(){
         Scanner scanner = new Scanner(System.in);
-
         int a , b = 0;
-
-        System.out.println("Before Swap:");
-        System.out.print("x: ");
+        a = scanner.nextInt();
+        b = scanner.nextInt();
+        System.out.println(a + b);
 
     }
 
