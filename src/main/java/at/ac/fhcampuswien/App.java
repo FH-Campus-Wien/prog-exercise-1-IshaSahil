@@ -87,9 +87,9 @@ public class App {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Year: ");
         int year = scanner.nextInt();
-        if ((year % 100) == 0 && (year % 400) != 0) {
+        if ((year % 100) == 0 && (year%400) != 0) {
             System.out.print("Not a Leapyear" + System.lineSeparator());
-        } else if ((year % 400) == 0 || (year % 4) == 0) {
+        } else if ((year%400) == 0 || (year%4) == 0) {
             System.out.print("Leapyear" + System.lineSeparator());
         } else {
             System.out.print("Not a leapyear" + System.lineSeparator());
