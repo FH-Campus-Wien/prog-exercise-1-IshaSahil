@@ -111,13 +111,13 @@ public class App {
         } else if (sales >= 80000 && sales < 100000) {
             System.out.print("Excellent sales Revenue");
         }
-
+    }
    //todo Task 8
-        public void getCommissionRate(){
-            Scanner scanner = new scanner(System.in);
+        public void getCommissionRate() {
+            Scanner scanner = new Scanner(System.in);
             System.out.print("Enter commissionClass: ");
             int a = scanner.nextInt();
-            switch(a) {
+            switch (a) {
                 case 1:
                     System.out.print("Your Commission Rate was set to 0.01" + System.lineSeparator());
                     break;
@@ -136,8 +136,8 @@ public class App {
 
 
             }
-            }
         }
+
 
         
 
